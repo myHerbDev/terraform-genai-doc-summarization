@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-variable "myherb-393607" {
-  description = "The Google Cloud project ID to deploy to"
+variable "n/a" {
+  description = "The Google Cloud n/a to deploy to"
   type        = string
   validation {
-    condition     = var.myherb-393607 != ""
+    condition     = var.n/a != ""
     error_message = "Error: myherb-393607 is required"
   }
 }
